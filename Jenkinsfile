@@ -9,7 +9,7 @@ pipeline {
           }
         }
 
-        stage('') {
+        stage('Print message') {
           steps {
             echo 'Welcom to Jenkins !'
           }
