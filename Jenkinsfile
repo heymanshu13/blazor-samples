@@ -7,5 +7,11 @@ pipeline {
       }
     }
 
+    stage('') {
+      steps {
+        prependToFile(file: 'Test.txt', content: 'Testing.........................')
+      }
+    }
+
   }
 }
