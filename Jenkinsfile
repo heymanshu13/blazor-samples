@@ -7,7 +7,7 @@ pipeline {
       }
     }
 
-    stage('') {
+    stage('Add file') {
       steps {
         prependToFile(file: 'Test.txt', content: 'Testing.........................')
       }
