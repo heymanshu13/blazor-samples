@@ -3,15 +3,8 @@ pipeline {
   stages {
     stage('Print message') {
       steps {
-        echo 'Welcome to Jenkins !'
+        echo 'Welcome back !'
       }
     }
-
-    stage('Add file') {
-      steps {
-        prependToFile(file: 'Test.txt', content: 'Testing.........................')
-      }
-    }
-
   }
 }
