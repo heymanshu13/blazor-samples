@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        BRANCH_NAME = "testing
+        BRANCH_NAME = "testing"
     }
 
     stages {
