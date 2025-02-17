@@ -25,10 +25,10 @@ pipeline {
             steps {
                 script {
                     if (BRANCH_NAME == 'main') {
-                        echo "Running pipeline for main...."
+                        echo "Running pipeline for main..."
                         
                     } else if (BRANCH_NAME == 'testing') {
-                        echo "Running pipeline for testing....."
+                        echo "Running pipeline for testing..."
                         
                     } else {
                         echo "Skipping deployment for unrelated branches"
